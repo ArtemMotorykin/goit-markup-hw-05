@@ -784,7 +784,6 @@ margin: 0 auto;
 }
 
 .input-label {
-    /* display: inline-block; */
     display: block;
     color: var(--lightslate, #8E8F99);
     font-size: 12px;
