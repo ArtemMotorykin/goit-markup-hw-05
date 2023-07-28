@@ -52,6 +52,8 @@ button {
     text-decoration: none;
 }
 
+/*------------------------------- HEADER --------------------------------------------------------*/
+
 .headers {
     border-bottom: 1px solid var(--cornflower);
     background: var(--white);
@@ -119,6 +121,8 @@ button {
     background: var(--ocean);
 }
 
+/*------------------------------- ADDRESS --------------------------------------------------------*/
+
 .address-menu {
     display: flex;
     gap: 40px;
@@ -143,13 +147,7 @@ button {
     color: var(--navy-blue);
     padding-top: 24px;
     padding-bottom: 24px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* 
-.header-menu-link:hover,
-.header-menu-link:focus {
-    color: var(--ocean);
-} */
 
 .address {
     font-style: normal;
@@ -169,6 +167,8 @@ button {
 .address-menu-link:focus {
     color: var(--ocean);
 }
+
+/*------------------------------- SECTION 1 --------------------------------------------------------*/
 
 .hero-image {
 margin: 0 auto;
@@ -220,6 +220,8 @@ margin: 0 auto;
 .digital:focus {
     background-color: var(--ocean);
 }
+
+/*------------------------------- SECTION 2 --------------------------------------------------------*/
 
 .section-two {
     padding-top: 120px;
@@ -291,8 +293,9 @@ margin: 0 auto;
     text-transform: capitalize;
     margin: 0 auto;
     margin-bottom: 72px;
-
 }
+
+/*------------------------------- SECTION 3 --------------------------------------------------------*/
 
 .section-three-list {
     display: flex;
@@ -315,6 +318,8 @@ margin: 0 auto;
 .workers{
     padding: 32px 0px;
 }
+
+/*------------------------------- SECTION 4 --------------------------------------------------------*/
 
 .sect-four {
     background-color: var(--cloud);
@@ -391,6 +396,8 @@ margin: 0 auto;
     fill: var(--cloud);
 }
 
+/*------------------------------- SECTION 5 --------------------------------------------------------*/
+
 .sect-five {
     background-color: var(--white);
     padding-top: 120px;
@@ -440,6 +447,8 @@ margin: 0 auto;
     height: 56px;
     fill: currentColor;
 }
+
+/*------------------------------- FOOTER --------------------------------------------------------*/
 
 .footer {
     background: var(--navy-blue);
@@ -550,9 +559,70 @@ margin: 0 auto;
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-    background-color: #31d0aa;
+    background-color: var(--green);
 }
 
+.footer-subscribe {
+    margin-left: 80px;
+    flex-grow: 1;
+}
+
+.footer-subscribe-text {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-input {
+    width: 264px;
+    height: 40px;
+    background-color: var(--navy-blue);
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid var(--white);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white);
+}
+
+.footer-input::placeholder {
+    color: #ffffff;
+}
+
+.footer-form-btn {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    background-color: var(--iris);
+    border: none;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+    background-color: var(--ocean);
+}
+
+.footer-form-img {
+    margin-left: 16px;
+    fill: var(--white);
+}
 
 .top-btn {
     padding-top: 96px;
@@ -634,6 +704,8 @@ margin: 0 auto;
     row-gap: 48px;
 }
 
+/*------------------------------- BACKDROP --------------------------------------------------------*/
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -688,11 +760,6 @@ margin: 0 auto;
 .modal-img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* 
-.modal-img:focus,
-.modal-img:hover {
-
-} */
 
 .model-field {
     margin-bottom: 8px;
@@ -809,6 +876,30 @@ margin: 0 auto;
     margin-right: 8px;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.model-send-btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    background: var(--iris);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    border: none;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.model-send-btn:focus,
+.model-send-btn:hover {
+    background-color: var(--ocean);
 }
 
 .is-hidden {

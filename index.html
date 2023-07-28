@@ -20,6 +20,8 @@
     <title>WebStudio</title>
   </head>
   <body>
+    <!-------------------- HEADER ------------------------------->
+
     <header class="headers">
       <div class="container header-container">
         <nav class="header-nav">
@@ -44,6 +46,9 @@
             </li>
           </ul>
         </nav>
+
+        <!-------------------- ADDRESS ------------------------------->
+
         <address class="address">
           <ul class="address-menu list">
             <li class="address-menu-item">
@@ -62,7 +67,8 @@
     </header>
 
     <main>
-      <!-- Section 1-->
+      <!-------------------- SECTION 1 ------------------------------->
+
       <section class="hero-image list">
         <div class="container hero-image-container">
           <h1 class="hero-image-title">
@@ -74,10 +80,12 @@
         </div>
       </section>
 
-      <!-- Section 2 -->
+      <!-------------------- SECTION 2 ------------------------------->
+
       <section class="section-two">
         <div class="container">
-          <!--Feature 1-->
+          <!---------------- FEATURE 1 ------------------------------>
+
           <h2 class="visually-hidden">Section 2</h2>
           <ul class="section-two-menu list">
             <li class="section-two-menu-item">
@@ -93,7 +101,8 @@
               </p>
             </li>
 
-            <!--Feature 2-->
+            <!---------------- FEATURE 2 ------------------------------>
+
             <li class="section-two-menu-item">
               <div class="section-two-menu-icons">
                 <svg class="section-two-icons" width="64" height="64">
@@ -107,7 +116,8 @@
               </p>
             </li>
 
-            <!--Feature 3-->
+            <!---------------- FEATURE 3 ------------------------------>
+
             <li class="section-two-menu-item">
               <div class="section-two-menu-icons">
                 <svg class="section-two-icons" width="64" height="64">
@@ -121,7 +131,8 @@
               </p>
             </li>
 
-            <!--Feature 4-->
+            <!---------------- FEATURE 4 ------------------------------>
+
             <li class="section-two-menu-item">
               <div class="section-two-menu-icons">
                 <svg class="section-two-icons" width="64" height="64">
@@ -138,7 +149,8 @@
         </div>
       </section>
 
-      <!-- Section 3 -->
+      <!-------------------- SECTION 3 ------------------------------->
+
       <section class="section-three">
         <div class="container">
           <h2 class="sect-heads-two">What are we doing</h2>
@@ -171,7 +183,8 @@
         </div>
       </section>
 
-      <!--Section 4-->
+      <!-------------------- SECTION 4 ------------------------------->
+
       <section class="sect-four list">
         <div class="container">
           <h2 class="sect-heads-two">Our Team</h2>
@@ -349,7 +362,8 @@
         </div>
       </section>
 
-      <!--Section 5-->
+      <!-------------------- SECTION 5 ------------------------------->
+
       <section class="sect-five list">
         <div class="container">
           <h2 class="sect-heads-two">Customers</h2>
@@ -401,6 +415,8 @@
       </section>
     </main>
 
+    <!-------------------- FOOTER ------------------------------->
+
     <footer class="footer">
       <div class="footer-div container">
         <div class="footer-container">
@@ -442,8 +458,30 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-subscribe">
+          <p class="footer-subscribe-text">Subscribe</p>
+          <form class="footer-form">
+            <label aria-label="email">
+              <input
+                type="email"
+                name="footer-email"
+                class="footer-input"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="footer-form-btn">
+              Subscribe
+              <svg class="footer-form-img" width="24" height="24">
+                <use href="./images/icons.svg#icons-paper-plane"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <!-------------------- BACKDROP ------------------------------->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="model">
@@ -526,7 +564,7 @@
             >
           </div>
 
-          <button type="submit">Send</button>
+          <button type="submit" class="model-send-btn">Send</button>
         </form>
       </div>
     </div>
