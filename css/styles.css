@@ -873,7 +873,7 @@ margin: 0 auto;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     margin-bottom: 24px;
 }
